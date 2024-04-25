@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, button {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('im/ventanas-sostenibles-aluminio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    box-shadow: 0 25px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 45px;
+    background-color: #f2f2f2;
+    color: #333333;
+    opacity: 0.5;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    animation: neon 1s infinite alternate;
+    outline: none;
+}
+
+@keyframes neon {
+    to {
+        box-shadow: 0 0 10px rgba(258, 0, 211, 0.7);
+    }
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+#clientesContainer {
+    margin-top: 20px;
+}
+
+.cliente {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.cliente button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+}
